@@ -1,0 +1,36 @@
+html{
+    font-family: "Helvetica", "sans-serif";
+    color: rgb(51, 51, 51);
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+    margin: 2rem;
+}
+
+article{
+    display: inline-block;
+    width: 65%;
+}
+
+aside{
+    display: inline-block;
+    width: 30%;
+    margin-bottom: auto;
+    height: 100vh;
+    vertical-align: top;
+}
+
+img{
+    width: 24rem;
+}
+
+h1,
+h2{
+    font-size: 2.4rem;
+}
+
+aside h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
