@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(227, 221, 221);
+    font-family: "Georgia", "serif";
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 24rem;
+    height: 26rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.2rem;
+    overflow: hidden;
+}
+
+.card .img-wrapper{
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+}
+
+.card .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.content{
+    padding: 1rem;
+    margin-top: -1rem;
+}
+
+.content h3{
+    font-size: 1.4rem;
+}
+
+.content .btn{
+    display: inlone-block;
+    position: absolute;
+    right: 1rem;
+    bottom: 2rem;
+    padding: 0.4rem;
+    border-radius: 0.2rem;
+    font-size: 1.2rem;
+    text-align: right;
+    margin-right: 1rem;
+    background-color: blue;
+    color: #fff;
+    text-decoration: none;
+}

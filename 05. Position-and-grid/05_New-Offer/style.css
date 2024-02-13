@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(222, 216, 216);
+}
+
+.main-img{
+    border-radius: 4px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.new-sign{
+    position: absolute;
+    top: 100px;
+    Right: 450px;
+}

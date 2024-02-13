@@ -1,0 +1,52 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css");
+
+*{
+    margin: 0px;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "upper-side"
+    "lower-side";
+}
+
+.upper-section{
+    background-color: green;
+    grid-area: upper-side;
+}
+
+.lower-section{
+    background-color: red;
+    grid-area: lower-side;
+}
+
+.viewport{
+    position: relative;
+    
+}
+
+img,
+.icon-container{
+    width: 11rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card .fas.fa-link{
+    position: absolute;
+    top: 2.3rem;
+    right: 0.2rem;
+    color: white;
+}
+
+.card .fas.fa-star{
+    position: absolute;
+    top: 7rem;
+    right: 0.2rem;
+    color: white;
+}
