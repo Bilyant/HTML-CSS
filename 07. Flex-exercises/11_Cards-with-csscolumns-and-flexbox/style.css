@@ -1,0 +1,50 @@
+h2{
+    font-size: 2.8rem;
+}
+
+.cards-layout{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2rem;
+}
+
+.flex .card{
+    width: 30%;
+    position: relative;
+    height: 56rem;
+    border: 1px solid grey;
+}
+
+.card section,
+.card footer{
+    padding: 0 1rem; 
+}
+
+.card p{
+    font-size: 1.3rem;
+}
+
+.card .img-wrapper{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.card .img-wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.flex h2{
+    flex-basis: 100%;
+}
+
+.card footer{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-top: 2px solid lightgrey;
+}

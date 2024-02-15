@@ -1,0 +1,70 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.wrapper{
+    display: flex;
+    max-width: 15vw;
+    height: 50vh;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.wrapper span{
+    border: 1px solid grey;
+    padding: 1rem 0rem;
+    width: 5rem;
+    text-align: center;
+    font-weight: 550;
+    border-radius: 0.2rem;
+}
+
+.item-L{
+    order: 12;
+}
+
+.item-M{
+    order: 11;
+}
+
+.item-T{
+    order: 10;
+}
+
+.item-H{
+    order: 9;
+}
+
+.item-c{
+    order: 8;
+}
+
+.item-i{
+    order: 7;
+}
+
+.item-t{
+    order: 6;
+}
+
+.item-n{
+    order: 5;
+}
+
+.item-a{
+    order: 4;
+}
+
+.item-m{
+    order: 3;
+}
+
+.item-e{
+    order: 2;
+}
+
+.item-s{
+    order: 1;
+}
