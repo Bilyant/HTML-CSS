@@ -1,0 +1,171 @@
+body{
+    background-color: #fff;
+    padding: 1rem; 
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 5%;
+    grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+    max-width: 38%;
+}
+
+h1,
+nav{
+    display: inline-block;
+}
+
+header nav{
+    display: inline-flex;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1rem;
+}
+
+li a{
+    text-decoration: none;
+}
+
+header,
+aside,
+main,
+footer{
+    background: rgb(181, 216, 255);
+    border-radius: 0.4rem;
+}
+
+header h1{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 1rem;
+}
+
+aside ul{
+    list-style: none;
+    margin: 0px;
+    padding: 5px;
+}
+
+a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(86, 40, 129);
+    text-decoration: none;
+}
+
+header{
+    grid-area: header;
+}
+
+aside{
+    grid-area: aside;
+    padding: 1rem 1rem;
+}
+
+main{
+    grid-area: main;
+    padding: 0 0.4rem;
+}
+
+footer{
+    grid-area: footer;
+    padding: 0.6rem;
+}
+
+@media screen and (max-width: 700px) {
+    body{
+        display: grid;
+        grid-template-areas: 
+        "header header"
+        "aside aside"
+        "main main"
+        "footer footer";
+        max-width: 100%;
+
+    }
+
+    header,
+    aside,
+    main,
+    footer{
+        width: 60%;
+        margin: 0.5rem auto;
+        text-align: center;
+        padding: 0;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    a{
+        font-size: 1.2rem;
+    }
+
+    ul{
+        list-style: none;
+        padding: 0;
+    }
+
+    nav .nav-item{
+        font-size: 1.2rem;
+        display: block;
+        margin: 0;
+    }
+
+    div{
+        font-size: 1.2rem;
+    }
+
+    header nav{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    nav li{
+        display: block;
+        width: 100%;
+    }
+
+}
+
+@media screen  and (max-width: 1200px) {
+    header{
+        text-align: center;
+    }
+
+    header,
+    aside,
+    main{
+        margin-bottom: 0;
+    }
+
+    h1,
+    nav,
+    ul{
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin: 0.4rem auto;
+    }
+
+    header h1{
+        padding: 0;
+    }
+
+    ul li{
+        list-style: none;
+        /* margin: 1rem; */
+    }
+
+    main{
+        padding: 0 1rem;
+    }
+
+    main h1{
+        margin-bottom: 1rem;
+    }
+}

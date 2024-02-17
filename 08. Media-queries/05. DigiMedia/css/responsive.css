@@ -1,0 +1,71 @@
+@media screen and (max-width: 600px) {
+    .navbar-brand{
+        width: 100%;
+        text-align: center;
+    }
+
+    .container-fluid img{
+        display: none;
+    }
+
+    .container h1{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+
+    .container p{
+        text-align: center
+    }
+
+    .hero-btns a{
+        display: block;
+        width: 50%;
+        margin: 0.2rem auto;
+        text-align: center;
+    }
+
+    .hero-btns{
+        margin-bottom: 50px;
+    }
+
+    .col-12.col-sm-12.col-lg-4.service-txt h2{
+        text-align: center;
+    }
+
+    .service-box img{
+        display: block;
+    }
+
+    .col-12.col-sm-6.col-lg-4{
+        display: block;
+        flex: 1 0 50%;
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .col-12.col-sm-6.col-lg-4 p{
+        text-align: left;
+    }
+
+    .col-12.col-sm-12.col-lg-6{
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    #contact-us .col-12{
+        text-align: center;
+    }
+
+    .hero-btns.contact-btn{
+        display: none;
+    }
+
+    footer .col-12{
+        max-width: 90%;
+    }
+
+    footer .col-12 ul li{
+        display: block;
+    }
+}

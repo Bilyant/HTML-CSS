@@ -1,0 +1,51 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css");
+
+body{
+    padding: 3rem;
+}
+
+.wrapper{
+    border: 1px solid black;
+    max-width: 20rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.2rem;
+}
+
+.wrapper .form-content *{
+    padding: 0.2rem;
+}
+
+.form-content p{
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+
+.form-content label{
+    font-size: 1.1rem;
+    /* font-weight: 550; */
+}
+
+.form-content .btn{
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    border: 1px solid grey;
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.2rem;
+    background-color: lightgrey;
+    font-size: 1rem;
+}
+
+.form-content input:hover{
+    background-color: lightgrey;
+}
+
+@media screen and (max-width: 750px){
+    .form-content label{
+        display: block;
+    }
+
+    .wrapper{
+        width: 12rem;
+    }
+}
