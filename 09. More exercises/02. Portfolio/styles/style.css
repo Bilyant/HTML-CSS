@@ -1,0 +1,279 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+/* background-color: rgb(239 239 239); */
+
+body{
+    background-color: white;
+}
+
+/* --------- HERO SECTION & FEATURES ------------ */
+
+#hero,
+#features{
+    background-color: rgb(239 239 239);
+    height: 610px;
+}
+
+#hero header{
+    background-color: rgb(239 239 239);
+}
+
+#hero ul li{
+    display: inline-block;
+    margin-left: auto;
+    padding: 0.4rem;
+    font-size: 1.4rem;
+}
+
+#hero ul li a{
+    text-decoration: none;
+}
+
+#hero nav{
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+}
+
+
+#hero .hero-wrapper,
+#features .features-wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10%;
+    padding: 0 8rem;
+}
+
+.hero-wrapper .hero-content,
+.features-wrapper .features-content{
+    margin-top: 6rem;
+    padding: 4rem 6rem;
+}
+
+.hero-wrapper .img-container,
+.features-wrapper .img-container{
+    margin-top: 6rem;
+}
+
+.hero-content h1,
+.features-content h1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.hero-content h1 span,
+.features-content h1 span{
+    font-weight: bold;
+}
+
+.hero-content p,
+.features-content p{
+    font-style: italic;
+}
+
+.hero-content .line-div,
+.features-content .line-div{
+    height: 4rem;
+    border-left: 2px solid grey;
+    margin-top: 2rem;
+}
+
+#features{
+    margin-top: 2rem;
+}
+
+/* --------- ABOUT ------------ */
+
+#about{
+    margin-top: 2rem;
+    height: 610px;
+}
+
+#about .about-content{
+    margin-left: -2rem;
+}
+
+#about .about-wrapper{
+    background-color: rgb(239 239 239);
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    padding: 6rem 8rem;
+
+}
+
+.about-wrapper .about-content{
+    padding: 2rem 6rem;
+}
+
+.about-content h2{
+    font-size: 3rem;
+    font-weight: 100;
+    display: inline-block;
+    margin-bottom: 1.4rem;
+}
+
+.about-content h2 span{
+    font-weight: bold;
+}
+
+.about-content .horizontal-line{
+    display: inline-block;
+    width: 4rem;
+    border-top: 2px solid grey;
+    height: 1rem;
+    margin-right: 1.5rem;
+}
+
+.about-content p{
+    font-style: italic;
+}
+
+.about-content ul li{
+    margin-top: 3rem;
+    display: inline-block;
+    padding-right: 1rem;
+    color: white;
+}
+
+.about-content ul .list-item-wrapper{
+    background-color: grey;
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    border-radius: 0.1rem;
+    cursor: pointer;
+}
+
+.about-content ul li i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-wrapper .img-wrapper img{
+    width: 80%;
+}
+
+.about-wrapper .img-wrapper{
+    margin-right: -4rem;
+}
+
+/* --------- IMAGE SECTION ------------ */
+
+#image-background{
+    height: 610px;
+    margin-top: 12rem;
+}
+
+#image-background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* --------- MORE IMAGES ------------ */
+
+#more-images{
+    height: 610px;
+    position: relative;
+    background-color: rgb(239 239 239);
+    margin-top: 2rem;
+}
+
+#more-images .images-wrapper img{
+    width: 420px;
+    display: inline-block;
+}
+
+#more-images .images-wrapper img:nth-child(odd){
+    margin: 0 10rem;
+}
+
+#more-images .images-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    
+}
+
+#more-images img:nth-child(2){
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 620px;
+    transform: translate(-50%, -50%);
+}
+
+/* --------- CONTACTS ------------ */
+
+#contacts{
+    background-color: rgb(239 239 239);
+    margin-top: 2rem;
+    height: 610px;
+}
+
+.contacts-wrapper{
+    padding: 0 8rem;
+}
+
+.contacts-wrapper header{
+    text-align: center;
+    padding-top: 0.1rem;
+}
+
+.contacts-wrapper header h1{
+    font-size: 3rem;
+    font-weight: 100;
+}
+
+.contacts-wrapper header h1 span{
+    font-weight: bold;
+}
+
+.contacts-wrapper header p{
+    font-style: italic;
+    padding: 1rem 6rem;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.form-wrapper{
+    text-align: center;
+
+}
+
+.form-wrapper form input{
+    display: inline-block;
+    width: 260px;
+}
+
+.form-wrapper form *{
+    margin: 1rem;
+    padding: 0.4rem;
+}
+
+.form-wrapper textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.4rem;
+}
+
+form button{
+    width: 556px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    padding: 6px 0;
+    margin-bottom: 3rem;
+}
+
+footer p{
+    margin-top: 1.3rem;
+    text-align: center;
+}
+

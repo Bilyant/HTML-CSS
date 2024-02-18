@@ -1,0 +1,267 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+body{
+    margin: 0;
+    background-color: rgb(49, 48, 48);
+}
+
+/* ---------------------------- HERO ----------------------------- */
+
+#hero::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, 
+    rgba(0,0,0,1) 0%,
+    rgba(0,0,0,0.7) 50%,
+    rgba(0,0,0,1) 100%);
+    opacity: 0.6;
+}
+
+#hero{
+    height: 42rem;
+    color: white;
+    position: relative;
+    font-size: 0;
+}
+
+
+#hero header{
+    padding: 1rem 3rem;
+}
+
+#hero header img{
+    position: absolute;
+    top: 2rem;
+    left: 4rem;
+    display: inline-block;
+    z-index: 2;
+    cursor: pointer;
+}
+
+#hero header button{
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
+    z-index: 2;
+    font-size: 1.4rem;
+    background-color: red;
+    padding: 0.2rem 1.4rem;
+    color: white;
+    border-radius: 0.3rem;
+    cursor: pointer;
+}
+
+
+#hero .hero-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#hero .hero-background{
+    height: 42rem;
+    position: relative;
+}
+
+#hero .hero-background img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-wrapper{
+    text-align: center;
+}
+
+.hero-wrapper h1{
+    font-size: 4rem;
+    padding: 0 2rem;
+    line-height: 1.1;
+}
+
+.hero-wrapper h2{
+    margin-top: 0.4rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.3px;
+
+}
+
+.hero-wrapper .under-title{
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    letter-spacing: 0.4px;
+}
+
+.hero-wrapper form input,
+.question-wrapper form input{
+    width: 26rem;
+    height: 3.4rem;
+    font-size: 1.2rem;
+}
+
+.hero-wrapper form button,
+.question-wrapper form button{
+    background-color: red;
+    padding: 0.6rem 1.8rem;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+}
+
+.hero-wrapper form,
+.question-wrapper form{
+    position: relative;
+}
+
+.hero-wrapper form i,
+.question-wrapper form i{
+    font-size: 1rem;
+    position: absolute;
+    right: 7.6rem;
+    bottom: 1.2rem;
+    cursor: pointer;
+}
+
+.question-wrapper form i{
+    right: 1rem;
+}
+
+.hero-wrapper .restriction-text{
+    font-size: 1.2rem;
+    letter-spacing: 0.2px;
+}
+
+/* ---------------------------- FEATURES ----------------------------- */
+
+#features{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    vertical-align: center;
+    margin-top: 0.5rem;
+}
+
+#features .item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0.5rem;
+    padding: 4rem 10rem;
+    background-color: black;
+    width: 100%;
+    color: white;
+}
+
+#features .item:nth-child(even){
+    flex-direction: row-reverse;
+}
+
+.item .item-content{
+    width: 35%;
+    margin: 3rem;
+}
+
+.item:last-child .item-content{
+    margin-top: 6rem;
+}
+
+.item .item-content h3{
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.item .item-content p{
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+/* ---------------------------- FREQUENT QUESTIONS ----------------------------- */
+
+#frequent-questions{
+    color: white;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+
+}
+
+#frequent-questions .question-wrapper h4{
+    font-size: 2.8rem;
+    margin-bottom: 2rem;
+}
+
+.question-wrapper ul li{
+    font-size: 1.5rem;
+}
+
+ul li .question-wrapper{
+    margin-bottom: 0.5rem;
+    background-color: rgb(49, 48, 48);
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.4rem 1.5rem;
+    cursor: pointer;
+}
+
+.question-wrapper i{
+    font-size: 2.5rem;
+}
+
+.question-wrapper ul li:last-child{
+    margin-bottom: 3rem;
+}
+
+.question-wrapper form{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+/* styles for the question form are the same as the hero section */
+
+
+/* ---------------------------- FOOTER ----------------------------- */
+
+#footer{
+    background-color: black;
+    color: white;
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    margin-top: 1rem;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+#footer .footer-wrapper {
+    width: 64rem;
+}
+
+.footer-wrapper > p{
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+}
+
+.footer-wrapper .item-row ul{
+    font-size: 1.1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0%;
+    margin-bottom: 0.6rem;
+}
+
+#footer p:last-child{
+    margin-top: 2.5rem;
+    font-size: 1.2rem;
+}

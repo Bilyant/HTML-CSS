@@ -1,0 +1,67 @@
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+article{
+    background-color: rgb(243, 240, 240);
+    width: 60%;
+    margin: 2rem;
+    border-radius: 0.4rem;
+}
+
+article .wrapper{
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+    gap: 16%;
+}
+
+article .content{
+    margin: 4rem;
+}
+
+.content h2{
+    font-weight: 550;
+    font-size: 0.8rem;
+    color: rgb(99, 98, 98);
+    margin-bottom: -1rem;
+}
+
+.content h1{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.content p{
+    letter-spacing: 1px;
+    line-height: 1.4;
+    margin-bottom: 2rem;
+    color: rgb(99, 98, 98);
+}
+
+.content .btn-left{
+    background-color: rgb(104, 16, 187);
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+    margin-right: 1rem;
+}
+
+.content .btn-right{
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.2rem;
+}
+
+article .img-wrapper{
+    position: relative;
+    display: inline-block;
+    width: 90%;
+}
+
+.img-wrapper img{
+    position: absolute;
+    bottom: 0;
+}
+
+button:hover{
+    cursor: pointer;
+}
